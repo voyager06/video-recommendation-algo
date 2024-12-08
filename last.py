@@ -241,20 +241,9 @@ get_ipython().system('pip install prettytable')
 # In[31]:
 
 
-from prettytable import PrettyTable
 
 
-def dataframe_to_prettytable(df):
-    table = PrettyTable()
-    table.field_names = df.columns
-    
-    for _, row in df.iterrows():
-        table.add_row(row)
-    
-    return table
 
-
-print(dataframe_to_prettytable(final_data.head(10)))
 
 
 # In[32]:
