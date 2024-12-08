@@ -235,7 +235,7 @@ print(all_data.head())
 # In[30]:
 
 
-get_ipython().system('pip install prettytable')
+
 
 
 # In[31]:
